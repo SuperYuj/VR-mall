@@ -1,0 +1,86 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+
+@font-face {
+  font-family: 'iconfont';  /* project id 843911 */
+  src: url('http://at.alicdn.com/t/font_843911_rrv1pz60yfn.eot');
+  src: url('http://at.alicdn.com/t/font_843911_rrv1pz60yfn.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_843911_rrv1pz60yfn.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_843911_rrv1pz60yfn.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_843911_rrv1pz60yfn.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.box{height: 40px; width: 100%; background: #e5e5e5; border-bottom: 1px solid #ccc; }
+.box1{width: 1200px; margin: 0 auto; height: 100%;line-height: 40px;color: #666; font-size: 12px; position:relative;}
+.box1 p{float: left;}
+.box1 li{float: left;margin-right:10px;}
+.box2{float: right;}
+.box2 li:after{content:'|'; padding-left: 10px;}
+.box2 li:last-of-type:after{ content: '';}/*去除最后一个竖线*/
+.box2 a{text-decoration:none;color: #666;transition:0.5s;}
+.box2 a:hover{color:red;}         
+.box3{height: 94px;}
+.box4{height: 94px; width: 230px; float: left;display: block;}
+.box4 a img{width: 230px; margin-top: 10px;}
+.box5{height: 32px; width: 120px; border:1px solid #CCCCCC; float: right;margin-top: 30px;position: relative;}
+.box5 i{font-size:25px; padding-left: 10px;padding-bottom: 5px;display: block;}
+.box5 span{display: block;position: absolute;left: 42px;bottom: -7px;font-size:12px;}
+.box6{height: 15px;width: 12px; border-radius: 50%; background: red;position: absolute;left: 114px;bottom: 24px;}
+.box7{position: absolute;left: 116px;bottom: 12px; color: #fff;}
+.goods{height: 38px; width: 100%; border-bottom: 1px solid #000000;}
+.framework{width: 1200px; margin: 0 auto; height: auto;position: relative;}
+.Classification{height: 38px;width: 238px; background: #666666;float:left;}
+.Classification i{color: #FFFFFF;padding: 12px 0 0 15px;  display: block;font-size: 10px;float: left;}
+.fenlei{color: #FFFFFF;float: left;padding: 9px 0 0 10px;font-size: 10px;}
+.down{height: 450px;width: 238px;background: #282828;display: none;position:absolute;top:38px;z-index:9999;}
+.down li{color: #FFFFFF;line-height: 1.5; text-indent: 2em;font-size: 15px;padding-top: 20px;}
+.Classification:hover .down{ display: block;}
+.zuofu li{float:left; line-height: 38px; font-size: 18px;padding-left: 48px;}
+.zuofu li a{text-decoration: none;color: #000000;}
+.zuofu li a:hover{color:red;}
+.qiang,.qiang1{width: 30px;height: 20px;position: absolute;left: 357px;top: 0; background:url(../img/icons.6fb343.png);background-position:28px 93px;no-repeat;}
+.qiang1{position: absolute;left: 478px;top: 0;}
+.new,.new1{width: 30px;height: 20px;position: absolute;left: 601px;top: 0;background:url(../img/icons.6fb343.png);background-position:35px 202px;no-repeat;}
+.new1{position: absolute;left: 758px;top: 0;}
+.dakuangjia{height: 970px;width: 100%; background: #eee;}
+.baofeng{height: 44px; width: 1226px; line-height: 44px;}
+.kaitou{height: 100px; width: 1154px; background:#fff;line-height: 49px;}
+.fenlei1{height: 49px; width: 1154px;}
+.box8{float:left;}
+.box8 li{float:left;padding-left: 40px;}
+.box8 li:nth-of-type(2){color: red;}
+.paixu{height: 50px; width: 1154px;border-top: 1px dashed #ddd;}
+.box9 li{float:left;padding-left: 40px;}
+.box9  li:nth-of-type(2){color: red;}
+.fangkuai li{width: 280px;height: 388px;float: left;background: #fff;margin: 14px 12px 18px 0;}
+.fangkuai li:hover{transition: 1s; box-shadow:0 5px 10px rgba(0,0,0,.3)}
+.fangkuai li img{width: 280px;height: 236px;}
+.box10{width: 280px;height: 58px;}
+.box11{width: 280px;height: 24px;display: block;text-align: center;font-size: 16px;color: #e73d4d;}
+.m{color: #999;text-decoration: line-through;padding-left: 5px;}    /*text-decoration: line-through; CSS文字中划线 删除线 贯穿线样式*/
+.box12{width: 280px;height: 34px;display: block;line-height: 34px;text-align: center;font-size: 15px;}
+.gomai{width: 280px; height: 63px;}
+.buy a{text-decoration:none;color: #666;transition:0.5s;}
+.buy a:hover{color:red;}
+.buy,.buy1{width: 100px;height: 25px;border: 1px solid #d3d3d3;font-size: 15px;color: #666;text-align: center;display: block;margin:22px 0 0 22px;float: left;}
+.buy1{color: #ff7c3a;border-color: #fff2e6;margin-left: 15px;display:block;float: right;margin:22px 22px 0 0;}
+.jiewei{height: 100px;display: block;text-align: center;line-height: 100px;}
